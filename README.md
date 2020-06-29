@@ -1,8 +1,8 @@
 # Android-System-Apps-Remover
 Android System apps removal using adb shell and batch script
 
-#WARNING
-#this will break your phone's Warranty and i will not take any responsibility for breaking your phone use it at your own risk
+# WARNING
+# this will break your phone's Warranty and i will not take any responsibility for breaking your phone use it at your own risk
 
 1. enable developer option and usb debugging (go to Setting > About and tap 8 times on android version untill you see the massage "Your a Developer" now you should see the developer option in the setting menu go to developer option and enable usb debugging)
 2. download and extract [SDK Platform Tools] (https://developer.android.com/studio/releases/platform-tools)
