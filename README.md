@@ -1,13 +1,15 @@
-# Android-System-Apps-Remover
-Android System apps removal using adb shell and batch script
+# Android-Debloater
 
 # WARNING
-## this will break your phone's Warranty and i will not take any responsibility for breaking your phone use it at your own risk
+## this will probably void your phone's Warranty and i will not take any responsibility for breaking your phone use it at your own risk
 
-1. enable developer option and usb debugging (go to Setting > About and tap 8 times on android version untill you see the massage "Your a Developer" now you should see the developer option in the setting menu go to developer option and enable usb debugging)
-2. download and extract [SDK Platform Tools](https://developer.android.com/studio/releases/platform-tools)
-3. copy script.bat file inside platform-tools folder
-4. edit script.bat file add full package names to list separated by space (you can find full package name from google playstore's url e.g. [YouTube](https://play.google.com/store/apps/details?id=com.google.android.youtube) > com.google.android.youtube
-5. save the file and run it
+1. First enable developer option and usb debugging and install via usb [Guide](https://developer.android.com/studio/debug/dev-options)
+2. you should have Android SDK Platforms Tools on your system and added to your path environment variables [Download](https://developer.android.com/studio/releases/platform-tools)  [Guide](https://developer.android.com/studio/releases/platform-tools)
+3. Download Empty_Script.bat from repo
+4. put package name of the apps you want to uninstall in list (you can add multiple packages at once just separate them with space) e.g. <code>list=com.xiaomi.mipicks com.miui.msa.global com.miui.cloudservice</code>
+5. finally save and run the script and let the magic happen ;)
 
-i also have provided a script with list of all bloatware of my own phone Pocophone F1
+I additionally have provided a script with all the MIUI 11 default apps that i personally don't use you can check that out and if there is any app that you dont want to be uninstalled just remove from the list
+
+this project is inspired by [Windows10Debloater
+](https://github.com/Sycnex/Windows10Debloater) and it has a lot to go (hopefully) so feel free to contribute you'r ideas
