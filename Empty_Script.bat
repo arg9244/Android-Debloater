@@ -1,5 +1,5 @@
 @echo off 
-set list=com.google.android.youtube com.google.android.apps.maps
+set list=
 (for %%a in (%list%) do ( 
    adb shell "pm uninstall -k --user 0 %%a" 
 ))
