@@ -12,4 +12,4 @@
 I additionally have provided a script with all the MIUI 11 default apps that i personally don't use you can check that out and if there is any app that you dont want to be uninstalled just remove from the list
 
 this project is inspired by [Windows10Debloater
-](https://github.com/Sycnex/Windows10Debloater) and it has a lot to go (hopefully) so feel free to contribute you'r ideas
+](https://github.com/Sycnex/Windows10Debloater) and it has a lot to go (hopefully) so feel free to contribute
